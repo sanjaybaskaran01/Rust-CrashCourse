@@ -4,33 +4,37 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width=100 height=100/>
 </a>
 </p>
-<h3 align="center"> <a href="https://www.youtube.com/watch?v=zF34dRivLOw&t=655s&ab_channel=TraversyMedia">
- Reference </a></h3>
+<p align="center">
 
+</p>
 <br>
 
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Main](#main)
-- [Print](#print)
-- [Variables](#variables)
-- [Data Types](#data-types)
-- [Strings](#strings)
-- [Tuples](#tuples)
-- [Arrays](#arrays)
-- [Vectors](#vectors)
-- [Conditionals](#conditionals)
-- [Loops](#loops)
-- [Functions](#functions)
-- [Pointers & Reference](#pointers--reference)
-- [Structs](#structs)
-- [Enums](#enums)
-- [Command Line Args](#command-line-args)
+- [Common Programming Concepts](#common-programming-concepts)
+  - [Main](#main)
+  - [Print](#print)
+  - [Variables](#variables)
+  - [Data Types](#data-types)
+  - [Strings](#strings)
+  - [Tuples](#tuples)
+  - [Arrays](#arrays)
+  - [Vectors](#vectors)
+  - [Conditionals](#conditionals)
+  - [Loops](#loops)
+  - [Functions](#functions)
+  - [Pointers & Reference](#pointers--reference)
+  - [Structs](#structs)
+  - [Enums](#enums)
+  - [Command Line Args](#command-line-args)
+- [Contributing](#contributing)
+- [References](#references)
 
 <br>
 
-## Main
+## Common Programming Concepts
+### Main
 
 ```rust
 // mod print;
@@ -69,7 +73,7 @@ fn main() {
 ```
 <br>
 
-## Print
+### Print
 
 ```rust
 pub fn run() {
@@ -90,7 +94,7 @@ pub fn run() {
 ```
 <br>
 
-## Variables
+### Variables
 
 ```rust
 pub fn run() {
@@ -107,7 +111,7 @@ pub fn run() {
 ```
 <br>
 
-## Data Types
+### Data Types
 
 ```rust
 pub fn run() {
@@ -121,7 +125,7 @@ pub fn run() {
 
 <br>
 
-## Strings
+### Strings
 
 ```rust
 // Primitive strings
@@ -172,7 +176,7 @@ pub fn run() {
 ```
 <br>
 
-## Tuples
+### Tuples
 ```rust
 // Max 12 elements
 
@@ -187,7 +191,7 @@ pub fn run() {
 ```
 <br>
 
-## Arrays
+### Arrays
 ```rust
 // Arrays fixed list where elements are of same data types
 
@@ -214,7 +218,7 @@ pub fn run() {
 }
 ```
 
-## Vectors
+### Vectors
 
 ```rust
 // Vectors are resizeable Arrays
@@ -261,7 +265,7 @@ pub fn run() {
 }
 ```
 
-## Conditionals
+### Conditionals
 ```rust
 // used to check the condition and act on the result
 
@@ -286,7 +290,7 @@ pub fn run() {
 ```
 <br>
 
-## Loops
+### Loops
 ```rust
 // Loops - to iterate until a condition is met
 
@@ -333,7 +337,7 @@ pub fn run() {
 ``` 
 <br>
 
-## Functions
+### Functions
 ```rust
 pub fn run() {
     greeting("Hello", "Sanjay");
@@ -357,7 +361,7 @@ fn add(n1: i32, n2: i32) -> i32 {
 ```
 <br>
 
-## Pointers & Reference
+### Pointers & Reference
 ```rust
 // Reference Pointers - Point to a resource in memory
 
@@ -373,7 +377,7 @@ pub fn run() {
 }
 ```
 
-## Structs
+### Structs
 ```rust
 // Structs - used to create custom data types
 
@@ -443,7 +447,7 @@ pub fn run() {
 ```
 <br>
 
-## Enums
+### Enums
 ```rust
 // Enums are types which have a few definite value
 
@@ -477,7 +481,7 @@ pub fn run() {
 ```
 <br>
 
-## Command Line Args
+### Command Line Args
 ```rust
 use std::env;
 
@@ -497,3 +501,19 @@ pub fn run() {
     }
 }
 ```
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
+4. Push to the Branch (`git push -u origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+You are requested to follow the contribution guidelines specified in [CONTRIBUTING.md](./CONTRIBUTING.md) while contributing to the project 😊
+.
+
+## References
+
+[Traversy Media](https://www.youtube.com/watch?v=zF34dRivLOw)
