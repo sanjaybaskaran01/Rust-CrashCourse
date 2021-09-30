@@ -1,10 +1,10 @@
 // Primitive strings
 //String = Growable heap allocated data structure
 
-pub fn run(){
+pub fn run() {
     let mut hello = String::from("Hello ");
     // Get Length
-    println!("length={}",hello.len());
+    println!("length={}", hello.len());
 
     // Push char
     hello.push('W');
@@ -13,21 +13,21 @@ pub fn run(){
     hello.push_str("orld");
 
     // Capacity in bytes
-    println!("Capacity: {}",hello.capacity());
+    println!("Capacity: {}", hello.capacity());
 
     // is empty
-    println!("is empty: {}",hello.is_empty());
+    println!("is empty: {}", hello.is_empty());
 
     // Contains
-    println!("Contains 'World' {}",hello.contains("World"));
+    println!("Contains 'World' {}", hello.contains("World"));
 
     // Replace
-    println!("Replace: {}",hello.replace("World","There!"));
+    println!("Replace: {}", hello.replace("World", "There!"));
 
     // Loop through string by whitespace
 
-    for word in hello.split_whitespace(){
-        println!("{}",word);
+    for word in hello.split_whitespace() {
+        println!("{}", word);
     }
 
     // Create string with capacity
@@ -36,13 +36,10 @@ pub fn run(){
     s.push('b');
 
     // Assertion testing
-    assert_eq!(2,s.len());
-    assert_eq!(10,s.capacity());
+    assert_eq!(2, s.len());
+    assert_eq!(10, s.capacity());
 
-    println!("{}",s);
+    println!("{}", s);
 
-    println!("{}",s.capacity());
-
-
-
+    println!("{}", s.capacity());
 }

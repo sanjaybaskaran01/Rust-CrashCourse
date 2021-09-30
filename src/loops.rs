@@ -1,10 +1,9 @@
-// Loops - to iterate until a condition is met 
+// Loops - to iterate until a condition is met
 
-pub fn run(){
+pub fn run() {
     let mut count = 1;
-    
-    // Infinite loop 
 
+    // Infinite loop
     // loop{
     //     count+=1;
     //     println!("{}",count);
@@ -14,18 +13,18 @@ pub fn run(){
     // }
 
     // While loop (FizzBuzz)
-    while count<=100{
-        if count%15==0{
+    while count <= 100 {
+        if count % 15 == 0 {
             println!("FizzBuzz!")
-        }else if count%3==0{
+        } else if count % 3 == 0 {
             println!("Fizz!");
-        }else if count%5==0{
+        } else if count % 5 == 0 {
             println!("Buzz!");
-        }else{
-            println!("{}",count);
+        } else {
+            println!("{}", count);
         }
         //Inc
-        count+=1;
+        count += 1;
     }
 
     // for range loop
@@ -40,5 +39,4 @@ pub fn run(){
     //         println!("{}",num);
     //     }
     // }
-
 }

@@ -16,5 +16,5 @@ pub fn run() {
 
     //Shorthand if
     let is_of_age = if age >= 21 { true } else { false };
-    println!("Is of Age:{}",is_of_age)
+    println!("Is of Age:{}", is_of_age)
 }

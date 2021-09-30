@@ -5,7 +5,6 @@ use std::mem;
 pub fn run() {
     let mut numbers: Vec<i32> = vec![1, 2, 3, 4];
     println!("Before Change:\t{:?}", numbers);
-    
     // Re-assign Value
     numbers[2] = 10;
 
@@ -31,14 +30,13 @@ pub fn run() {
     println!("Slice : {:?}", slice);
 
     // Loop through vector values
-    for num in numbers.iter(){
-        println!("Number:{}",num);
+    for num in numbers.iter() {
+        println!("Number:{}", num);
     }
 
     // Loop and mutate values
-    for num in numbers.iter_mut(){
-        *num*=2;
+    for num in numbers.iter_mut() {
+        *num *= 2;
     }
-    println!("Numbers Vec:{:?}",numbers);
-    
+    println!("Numbers Vec:{:?}", numbers);
 }

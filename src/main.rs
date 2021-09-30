@@ -30,5 +30,4 @@ fn main() {
     // enums::run();
     // cli::run();
     input::run();
-
 }
