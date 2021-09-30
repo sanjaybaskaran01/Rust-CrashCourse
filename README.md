@@ -1,5 +1,9 @@
 <h1 align="center"> Rust Crash Course </h1>
-
+<p  align="center">
+<a href="https://www.rust-lang.org/learn">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" width=100 height=100/>
+</a>
+</p>
 <h3 align="center"> <a href="https://www.youtube.com/watch?v=zF34dRivLOw&t=655s&ab_channel=TraversyMedia">
  Reference </a></h3>
 
@@ -8,6 +12,7 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [Main](#main)
 - [Print](#print)
 - [Variables](#variables)
 - [Data Types](#data-types)
@@ -23,6 +28,45 @@
 - [Enums](#enums)
 - [Command Line Args](#command-line-args)
 
+<br>
+
+## Main
+
+```rust
+// mod print;
+// mod vars;
+// mod types;
+// mod strings;
+// mod tuples;
+// mod arrays;
+// mod vectors;
+// mod conditionals;
+// mod loops;
+// mod functions;
+// mod pointer_ref;
+// mod structs;
+// mod enums;
+// mod cli;
+mod input;
+fn main() {
+    // println!("Hello, world!");
+    // print::run();
+    // vars::run();
+    // types::run();
+    // strings::run();
+    // tuples::run();
+    // arrays::run();
+    // vectors::run();
+    // conditionals::run();
+    // loops::run();
+    // functions::run();
+    // pointer_ref::run();
+    // structs::run();
+    // enums::run();
+    // cli::run();
+    input::run();
+}
+```
 <br>
 
 ## Print
